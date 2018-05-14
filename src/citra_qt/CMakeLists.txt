@@ -9,6 +9,8 @@ add_executable(citra-qt
     aboutdialog.h
     bootmanager.cpp
     bootmanager.h
+    cheat_gui.cpp
+    cheat_gui.h
     camera/camera_util.cpp
     camera/camera_util.h
     camera/still_image_camera.cpp
@@ -100,6 +102,7 @@ add_executable(citra-qt
 )
 
 set(UIS
+    cheat_gui.ui
     configuration/configure.ui
     configuration/configure_audio.ui
     configuration/configure_camera.ui
